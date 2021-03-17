@@ -11,9 +11,7 @@
 </head>
 
 <body>
-    <!-- <main class="main"> -->
     <div class="container">
-
         <header class="header">
             <a href="#">
                 <img class="logo" src="./img/logo.jpg" alt="logo" />
@@ -29,14 +27,13 @@
             <!-- /.nav -->
         </header>
         <!-- header -->
-        <!-- <div class="content"> -->
         <section class="finder">
-            <div class="header_content">
+            <div class="finder_content">
                 <h1 class="title">
                     Explore and <br> Travel
                 </h1>
-                <div class="header_box">
-                    <span class="header_subtitle">
+                <div class="finder_box">
+                    <span class="finder_subtitle">
                               Holiday finder
                             </span>
                     <div class="line"></div>
@@ -54,18 +51,20 @@
                   <option value="Grade">Grade</option>
                   <option value="Grade">Grade</option>
                 </select>
-                        <select class="div_select" name="select" id="">
+                        <div>
+                            <select class="div_select" name="select" id="">
                   <option value="Activity">Activity</option>
                   <option value="Activity">Activity</option>
                   <option value="Activity">Activity</option>
                   <option value="Activity">Activity</option>
                 </select>
-                        <select class="div_select" name="select" id="">
+                            <select class="div_select" name="select" id="">
                   <option value="Date">Date</option>
                   <option value="Date">Date</option>
                   <option value="Date">Date</option>
                   <option value="Date">Date</option>
                 </select>
+                        </div>
                     </div>
                     <!-- /.select -->
 
@@ -79,24 +78,26 @@
             <img class="small-svg" src="./img/значки/element.svg" alt="circle">
         </section>
         <!-- /.finder -->
-        <div class="container_section">
-            <img class="section_image" src="./img/Thousand-02 1.png" alt="image">
-            <div class="section_content">
-                <article>
-                    <h2 class="section_subtitle">
-                        A new way to explore the world
-                    </h2>
-                    <p class="section_paragraph">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
-                </article>
+    </div>
+    <!-- container -->
+    <div class="container_section">
+        <img class="section_image" src="./img/Thousand-02 1.png" alt="image">
+        <div class="section_content">
+            <article>
+                <h2 class="section_subtitle">
+                    A new way to explore the world
+                </h2>
+                <p class="section_paragraph">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+            </article>
 
-                <a class="learn" href="#"> Learn more</a>
-                <img class="section_plus-svg" src="./img/значки/element3.svg" alt="image">
-                <img class="section_small-svg" src="./img/значки/element.svg" alt="circle">
-            </div>
-
-            <!-- /.section_content -->
+            <a class="learn" href="#"> Learn more</a>
+            <img class="section_plus-svg" src="./img/значки/element3.svg" alt="image">
+            <img class="section_small-svg" src="./img/значки/element.svg" alt="circle">
         </div>
-        <!-- /.container_section -->
+        <!-- /.section_content -->
+    </div>
+    <!-- /.container_section -->
+    <main class="main">
         <div class="container_gallery">
             <div class="view_all">
                 <h2 class="gallery_subtitle">Featured destinations</h2>
@@ -105,31 +106,34 @@
                     <img class="vector" src="./img/slider/Vector 1.svg" alt="arrow">
                 </a>
             </div>
-            <div class="gallery_img">
-                <img src="./img/slider/image 1.png" alt="image">
-                <span class="img_span">Raja Ampat <br>
-              Indonesia</span>
-                <img src="./img/slider/image 2.png" alt="image">
-                <span class="img_span">Fanjingshan <br>
-              China</span>
+            <!-- /.view_all -->
+            <div class="gallery_imags">
+                <div class="gallery_img">
+                    <img src="./img/slider/image 1.png" alt="image">
+                    <p class="img_p">Raja Ampat <br>
+                        <span class="img_span">Indonesia</span></p>
+                </div>
+                <div class="gallery_img">
+                    <img src="./img/slider/image 2.png" alt="image">
+                    <p class="img_p">Fanjingshan <br>
+                        <span class="img_span">China</span> </p>
+                </div>
                 <div class="gallery_img">
                     <img src="./img/slider/image 3.png" alt="image">
+                    <p class="img_p">Vevey<br>
+                        <span class="img_span">Switzerland</span></p>
                 </div>
-                <span class="img_span">Vevey<br>
-              Switzerland</span>
                 <div class="gallery_img">
                     <img src="./img/slider/image 4.png" alt="image">
+                    <p class="img_p">Skadar <br>
+                        <span class="img_span">Montenegro</span></p>
                 </div>
-                <span class="img_span">Skadar <br>
-              Montenegro</span>
             </div>
             <!-- gallery_img -->
         </div>
         <!-- container_gallery -->
-        <!-- </div> -->
-        <!-- content -->
-    </div>
-    <!-- container -->
+    </main>
+
 </body>
 
 </html>
