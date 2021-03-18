@@ -30,7 +30,8 @@
             
             .container {
                 position: relative;
-                max-width: 1399px;
+                max-width: 1251px;
+                width: 100%;
                 margin: 0 auto;
                 padding: 0 16px;
             }
@@ -39,13 +40,11 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                /* margin: 0 auto; */
                 margin-top: 35px;
-                max-width: 1219px;
-                width: 100%;
+                /* max-width: 1219px;
+                width: 100%; */
                 height: 60px;
             }
-            /* .logo {} */
             
             .nav {
                 display: flex;
@@ -185,6 +184,8 @@
             }
             
             .travel_image {
+                position: absolute;
+                right: -78px;
                 height: 654px;
                 width: 687px;
             }
@@ -210,7 +211,7 @@
             .container_section {
                 display: flex;
                 align-items: center;
-                margin: 0 225px;
+                justify-content: space-around;
                 margin-bottom: 260px;
                 max-width: 1270px;
                 width: 100%;
@@ -218,11 +219,16 @@
             }
             
             .section_image {
+                position: relative;
+                left: -29px;
                 width: 659px;
                 height: 534px;
             }
             
             .section_content {
+                position: relative;
+                max-width: 481px;
+                max-height: 333px;
                 margin: 0 44px 0 102px;
             }
             
@@ -269,20 +275,21 @@
             
             .section_plus-svg {
                 position: absolute;
-                left: 927px;
-                top: 1096px;
+                left: -95px;
+                top: -110px;
             }
             
             .section_small-svg {
                 position: absolute;
-                right: 608px;
+                right: 120px;
             }
             /* container_section */
             
             .main {
-                max-width: 1239px;
-                width: 100%;
                 margin: 0 auto 232px;
+                padding: 0 16px;
+                max-width: 1154px;
+                width: 100%;
                 border: 1px solid rgb(0, 4, 255)
             }
             
@@ -290,8 +297,9 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                max-width: 1120px;
                 min-height: 532px;
-                border: 1px solid red
+                margin: 0 auto;
             }
             
             .view_all {
@@ -323,9 +331,6 @@
                 height: 337px;
                 border-radius: 8px;
             }
-            /* .gallery_img:last-child {
-                margin-right: 0;
-            } */
             
             .gallery_img {
                 display: flex;
@@ -345,14 +350,13 @@
                 background: #FFFFFF;
                 color: #042521;
                 border-radius: 0px 6px 0px 0px;
-                border: 1px solid green;
             }
             
             .img_span {
-                color: #80918E;
                 font-weight: 500;
                 font-size: 15px;
                 line-height: 24px;
+                color: #80918E;
             }
             
             .gallery_link {
@@ -375,4 +379,42 @@
                 margin-left: 6px;
                 width: 6px;
                 height: 11px;
+            }
+            
+            .gallery_plus-svg {
+                position: absolute;
+                left: -10px;
+                bottom: 180px;
+            }
+            
+            .gallery_small-1-svg {
+                position: absolute;
+                bottom: 0;
+                left: 555px;
+            }
+            
+            .gallery_small-svg {
+                position: absolute;
+                right: 225px;
+            }
+            
+            .container_aside {
+                justify-content: space-between;
+                align-items: center;
+                margin: 173px auto 0 auto;
+                max-width: 1120px;
+                width: 100%;
+                min-height: 542px;
+            }
+            
+            .aside_image {
+                width: 599px;
+                height: 542px;
+                order: 1;
+            }
+            
+            .aside_content {
+                margin: 0 130px 0 0;
+                max-width: 481px;
+                min-height: 303px;
             }
