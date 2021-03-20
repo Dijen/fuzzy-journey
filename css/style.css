@@ -107,7 +107,6 @@
             .title {
                 margin-bottom: 74px;
                 margin-top: 33px;
-                font-style: normal;
                 font-weight: bold;
                 font-size: 64px;
                 font-family: 'Inter-ExtraLightBETA';
@@ -119,7 +118,6 @@
                 display: block;
                 margin-bottom: 21px;
                 font-family: sans-serif, Inter;
-                font-style: normal;
                 font-weight: 600;
                 font-size: 22px;
                 line-height: 27px;
@@ -144,8 +142,6 @@
                 width: 220px;
                 height: 52px;
                 font-family: sans-serif, Inter;
-                font-style: normal;
-                font-weight: normal;
                 font-size: 15px;
                 line-height: 32px;
                 cursor: pointer;
@@ -164,7 +160,6 @@
                 width: 180px;
                 height: 52px;
                 font-family: sans-serif;
-                font-style: normal;
                 font-weight: 500;
                 font-size: 17px;
                 text-decoration: none;
@@ -234,7 +229,6 @@
             
             .section_subtitle {
                 margin-bottom: 20px;
-                font-style: normal;
                 font-weight: bold;
                 font-size: 36px;
                 line-height: 50px;
@@ -245,7 +239,6 @@
                 width: 430px;
                 margin-bottom: 33px;
                 font-family: sans-serif;
-                font-style: normal;
                 font-weight: 300;
                 font-size: 17px;
                 line-height: 30px;
@@ -259,7 +252,6 @@
                 text-align: center;
                 text-decoration: none;
                 font-family: sans-serif, Inter;
-                font-style: normal;
                 font-weight: 500;
                 line-height: 60px;
                 background: var(--orange);
@@ -311,7 +303,6 @@
             
             .gallery_subtitle {
                 font-family: Playfair Display;
-                font-style: normal;
                 font-weight: bold;
                 font-size: 36px;
                 line-height: 50px;
@@ -343,7 +334,6 @@
                 width: 120px;
                 height: 56px;
                 font-family: Inter, sans-serif;
-                font-style: normal;
                 font-weight: 600;
                 font-size: 17px;
                 line-height: 25px;
@@ -369,7 +359,6 @@
             .label {
                 cursor: pointer;
                 font-family: Inter, sans-serif;
-                font-style: normal;
                 font-weight: 600;
                 font-size: 17px;
                 line-height: 60px;
@@ -382,14 +371,16 @@
             }
             
             .gallery_plus-svg {
-                position: absolute;
-                left: -10px;
-                bottom: 180px;
+                position: relative;
+                left: -64px;
+                bottom: 190px;
+                width: 23px;
+                height: 23px;
             }
             
             .gallery_small-1-svg {
                 position: absolute;
-                bottom: 0;
+                bottom: 720px;
                 left: 555px;
             }
             
@@ -398,7 +389,7 @@
                 right: 225px;
             }
             
-            .container_aside {
+            .aside {
                 justify-content: space-between;
                 align-items: center;
                 margin: 173px auto 0 auto;
@@ -417,4 +408,36 @@
                 margin: 0 130px 0 0;
                 max-width: 481px;
                 min-height: 303px;
+            }
+            
+            .aside_small-svg {
+                position: absolute;
+                left: 45px;
+                top: -62px;
+            }
+            
+            .aside_plus-small {
+                position: absolute;
+                right: -67px;
+                top: 37px;
+                width: 16px;
+                height: 16px;
+            }
+            /* reviews */
+            
+            .reviews {
+                display: flex;
+                margin: 256px auto 0 auto;
+                min-height: 608px;
+            }
+            
+            .reviews_subtitle {}
+            
+            .reviews_bloc {
+                margin-top: 145px;
+            }
+            
+            .reviews_estimation {
+                min-height: 608px;
+                width: 450px;
             }
