@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/var.css">
+    <link rel="stylesheet" href="./css/star-rating.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>Travel</title>
 </head>
 
@@ -141,7 +143,6 @@
                 <p class="section_paragraph">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
             </article>
             <a class="learn" href="#">Download</a>
-            <img class="aside_plus-small" src="./img/значки/element3.svg" alt="image">
             <img class="aside_plus-svg" src="./img/значки/element3.svg" alt="image">
             <img class="aside_small-svg" src="./img/значки/element.svg" alt="circle">
         </div>
@@ -150,19 +151,32 @@
     <!-- /.container_aside -->
     <div class="reviews aside">
         <div class="reviews_estimation">
-            <h2 class="reviews_subtitle section_subtitle">
+            <h2 class="section_subtitle">
                 Testimonials
             </h2>
+            <div class="star-rating">
+                <div class="star-rating__wrap">
+                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                </div>
+            </div>
+            <!-- star-rating -->
             <div class="reviews_bloc">
-                <p class="section_paragraph">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+                <p class="reviews_paragraph section_paragraph">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
                 <span><b class="bold">Edward Newgate</b><br>Founder Circle</span>
             </div>
         </div>
 
         <!-- слайд -->
-        <div class="customers">
-            <img src="./img/photo.png" alt="клиент">
-        </div>
+        <img src="./img/photo.png" alt="клиент" class="customers">
     </div>
 </div>
 <!-- /.container -->
